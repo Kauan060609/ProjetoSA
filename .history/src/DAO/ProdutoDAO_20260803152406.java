@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import exceptions.*;
-import connection.ConnectionSA;
+import conection.ConnectionSA;
 import model.Produto;
 
 public class ProdutoDAO {
