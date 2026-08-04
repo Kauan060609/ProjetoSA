@@ -1,4 +1,4 @@
-START TRANSACTION;
+St
 
 -- ESTOQUE
 INSERT INTO estoque (id_estoque, quantidade_minima, quantidade_estoque) VALUES
@@ -89,9 +89,3 @@ INSERT INTO produto_compra (id_produto_compra, quantidade_produto, valor_unitari
 (11, 1, 750.00, 8, 7), 
 (12, 1, 49.90, 6, 7);
 
-
--- Se der ERRO:
-ROLLBACK; -- desfaz tudo 
-
--- Se der CERTO:
-COMMIT; -- deixa as mudanças permanentes

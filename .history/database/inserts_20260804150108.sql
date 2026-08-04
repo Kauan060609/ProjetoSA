@@ -94,4 +94,4 @@ INSERT INTO produto_compra (id_produto_compra, quantidade_produto, valor_unitari
 ROLLBACK; -- desfaz tudo 
 
 -- Se der CERTO:
-COMMIT; -- deixa as mudanças permanentes
+COMMIT;
